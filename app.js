@@ -13,7 +13,7 @@ var express = require('express')
   , request = require('request');
 
 var app = express();
- 
+
 // bitcoinapi
 bitcoinapi.setWalletDetails(settings.wallet);
 if (settings.heavy != true) {
